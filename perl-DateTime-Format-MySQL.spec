@@ -19,6 +19,8 @@ BuildRequires: perl(Module::Build::Compat)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
+Requires: perl(DateTime::Format::Builder)
+
 %description
 This module understands the formats used by MySQL for its DATE, DATETIME,
 TIME, and TIMESTAMP data types. It can be used to parse these formats in
