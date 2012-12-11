@@ -50,3 +50,27 @@ rm -rf %buildroot
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
+
+
+%changelog
+* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 0.40.0-4mdv2011.0
++ Revision: 654912
+- rebuild for updated spec-helper
+
+* Sun Nov 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.40.0-3mdv2011.0
++ Revision: 471498
+- adding missing requires:
+
+* Sun Nov 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.40.0-2mdv2010.1
++ Revision: 471458
+- bump mkrel
+- adding missing requires:
+
+* Sun Nov 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.40.0-1mdv2010.1
++ Revision: 471398
+- adding missing buildrequires:
+- import perl-DateTime-Format-MySQL
+
+
+* Sun Nov 29 2009 cpan2dist 0.04-1mdv
+- initial mdv release, generated with cpan2dist
